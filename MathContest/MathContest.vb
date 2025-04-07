@@ -2,6 +2,7 @@
 'RCET 2265
 'Spring 2025
 'Math Contest
+'https://github.com/hollnoah/MathContest.git
 
 Option Strict On
 Option Explicit On
