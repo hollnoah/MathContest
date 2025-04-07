@@ -6,7 +6,6 @@
 Option Strict On
 Option Explicit On
 Option Compare Text
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class MathContest
     Dim correctAnswers As Integer = 0
@@ -36,7 +35,7 @@ Public Class MathContest
         firstnum = random.Next(1, 21)
         secondnum = random.Next(1, 21)
         If DivideRadioButton.Checked Then
-            firstnum = firstnum * secondnum ' ensure divisible
+            firstnum = firstnum * secondnum
         End If
         FirstNumTextBox.Text = firstnum.ToString()
         SecondNumTextBox.Text = secondnum.ToString()
